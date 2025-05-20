@@ -15,11 +15,11 @@ Landing page desarrollada para **Tienda Urbana**, una tienda de indumentaria mod
 
 ### Vista general de la landing
 
-![Landing principal](imagenes/landing.png)
+![Landing principal](landing.png)
 
 ### Sección de productos
 
-![Muestras de productos](imagenes/muestras.png)
+![Muestras de productos](muestras.png)
 
 ---
 
