@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Urbana</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #111;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      color: #f33;
+    }
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #ccc;
+    }
+    .hero {
+      padding: 100px 40px;
+      text-align: center;
+      background: url('https://images.unsplash.com/photo-1600180758890-6ec1a87f13b9') no-repeat center/cover;
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ddd;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .products, .gallery, .testimonials {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: #f33;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Tienda Urbana</h1>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#opiniones">Opiniones</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Moda que se siente</h2>
+    <p>Estilo urbano, diseño moderno y comodidad total</p>
+  </section>
+
+  <section class="section" id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="products">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/20885853/pexels-photo-20885853/free-photo-of-hombre-sombrero-gorro-en-pie.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Remera urbana">
+        <h3>Remera Oversize</h3>
+        <p>$8.900 ARS</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/11557170/pexels-photo-11557170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Campera urbana">
+        <h3>Campera Street</h3>
+        <p>$18.500 ARS</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/7764611/pexels-photo-7764611.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Pantalónes">
+        <h3>Pantalón Cargo</h3>
+        <p>$15.200 ARS</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://images.pexels.com/photos/18398326/pexels-photo-18398326/free-photo-of-model-wearing-beige-t-shirts-seyot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Look 1">
+      <img src="https://images.pexels.com/photos/18398384/pexels-photo-18398384/free-photo-of-models-wearing-beige-and-black-t-shirts-seyot.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Look 2">
+      <img src="https://images.pexels.com/photos/15910676/pexels-photo-15910676/free-photo-of-young-woman-in-a-trendy-outfit-posing-outdoors.jpeg" alt="Look 3">
+    </div>
+  </section>
+
+  <section class="section" id="opiniones">
+    <h2>Opiniones</h2>
+    <div class="testimonials">
+      <div class="card">"La calidad es excelente y el diseño muy original. ¡Volveré a comprar!" – Mica R.</div>
+      <div class="card">"Recibí mi pedido súper rápido y todo perfecto. Recomendado." – Tomás L.</div>
+      <div class="card">"La ropa es cómoda y se nota que cuidan cada detalle. 10 puntos." – Juli P.</div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contacto">
+    <h2>Contactanos</h2>
+    <p>📍 Av. Santa Fe 4321, Buenos Aires<br>📞 +54 11 5555-6789</p>
+    <a href="https://wa.me/541155556789" target="_blank">Escribinos por WhatsApp</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Tienda Urbana. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+
+ 
+  
