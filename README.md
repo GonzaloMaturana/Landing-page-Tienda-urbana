@@ -6,9 +6,8 @@ Landing page desarrollada para **Tienda Urbana**, una tienda de indumentaria mod
 
 ## 🔗 Demo en vivo
 
-👉 [Ver landing en Netlify](https://tu-enlace-netlify.netlify.app)
+(https://tiendaderopademo.netlify.app/)
 
-_Reemplazá el enlace con el tuyo real cuando publiques._
 
 ---
 
