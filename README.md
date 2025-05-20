@@ -6,8 +6,9 @@ Landing page desarrollada para **Tienda Urbana**, una tienda de indumentaria mod
 
 ## 🔗 Demo en vivo
 
-https://tiendaderopademo.netlify.app/()
+👉 [Ver landing en Netlify](https://tu-enlace-netlify.netlify.app)
 
+_Reemplazá el enlace con el tuyo real cuando publiques._
 
 ---
 
@@ -15,11 +16,11 @@ https://tiendaderopademo.netlify.app/()
 
 ### Vista general de la landing
 
-(imagenes/landing.png)
+![Landing principal](imagenes/landing.png)
 
 ### Sección de productos
 
-(imagenes/muestras.png)
+![Muestras de productos](imagenes/muestras.png)
 
 ---
 
@@ -29,9 +30,3 @@ https://tiendaderopademo.netlify.app/()
 - CSS3
 - Google Fonts
 - Netlify (hosting)
-
----
-📬 Contacto
-Desarrollado por Gonzalo Maturana
-📧 gonzamaturana2020@gmail.com
-
