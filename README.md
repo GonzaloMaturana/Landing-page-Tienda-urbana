@@ -15,11 +15,11 @@ https://tiendaderopademo.netlify.app/()
 
 ### Vista general de la landing
 
-(landing.png)
+(imagenes/landing.png)
 
 ### Sección de productos
 
-(muestras.png)
+(imagenes/muestras.png)
 
 ---
 
