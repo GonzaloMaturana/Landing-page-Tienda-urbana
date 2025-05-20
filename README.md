@@ -1,27 +1,37 @@
 # 🛍️ Tienda Urbana – Landing Page
 
-Landing page responsive desarrollada para una tienda de indumentaria urbana. El diseño está pensado para mostrar productos destacados, promociones y brindar una experiencia visual atractiva al visitante.
+Landing page desarrollada para **Tienda Urbana**, una tienda de indumentaria moderna. El diseño es limpio, responsivo y enfocado en mostrar productos destacados y atraer al cliente a través de una propuesta visual clara.
+
+---
 
 ## 🔗 Demo en vivo
 
-👉 [Ver landing en Netlify](https://tiendaderopademo.netlify.app/)
-
+https://tiendaderopademo.netlify.app/()
 
 
 ---
 
 ## 📸 Capturas
 
-### Página principal
+### Vista general de la landing
 
-![Captura de la landing](landing.png)
+![Landing principal](imagenes/landing.png)
+
+### Sección de productos
+
+![Muestras de productos](imagenes/muestras.png)
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## 🛠️ Tecnologías utilizadas
 
 - HTML5
 - CSS3
-- JavaScript (opcional, si lo usaste)
-- Google Fonts (opcional, si aplicás tipografías externas)
-- Netlify (para hosting)
+- Google Fonts
+- Netlify (hosting)
+
+---
+📬 Contacto
+Desarrollado por Gonzalo Maturana
+📧 gonzamaturana2020@gmail.com
+
